@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <el-button type="info" @click="logout">退出</el-button>
-    </div>
+  <div>
+    <el-button type="info" @click="logout">退出</el-button>
+  </div>
 </template>
 
 <script>
@@ -10,11 +10,6 @@ export default {
     logout () {
       window.sessionStorage.clear()
       this.$router.push('/login')
-      this.$message({
-        duration: 500,
-        message: '退出成功！',
-        type: 'success'
-      })
     }
   }
 }
