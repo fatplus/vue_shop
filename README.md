@@ -1,4 +1,5 @@
-# vue-shop
+## 本资源由 itjc8.com 收集
+# vue_shop
 
 ## Project setup
 ```
@@ -13,6 +14,11 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
+```
+
+### Run your tests
+```
+npm run test
 ```
 
 ### Lints and fixes files
