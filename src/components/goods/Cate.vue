@@ -144,11 +144,8 @@ export default {
     },
     parentCateChanged() {
       if (this.selectedKeys.length > 0) {
-        this.addCateForm.cat_pid = this.selectedKeys[
-          this.selectedKeys.length - 1
-        ]
+        this.addCateForm.cat_pid = this.selectedKeys[ this.selectedKeys.length - 1 ]
         this.addCateForm.cat_level = this.selectedKeys.length
-        return
       } else {
         this.addCateForm.cat_pid = 0
         this.addCateForm.cat_level = 0
